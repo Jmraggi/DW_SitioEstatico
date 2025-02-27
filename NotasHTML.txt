@@ -1,0 +1,51 @@
+====================================== HTML - RESUMEN ======================================
+
+🔹 ¿Qué es HTML?  
+HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estructurar el contenido de páginas web.
+
+🔹 Estructura básica de un documento HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento TIPO</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+🔹 Elementos esenciales de HTML: ✅ <!DOCTYPE html> → Define la versión de HTML.
+✅ <html> → Elemento raíz del documento.
+✅ <head> → Contiene metadatos y enlaces a hojas de estilo o scripts.
+✅ <title> → Define el título de la pestaña del navegador.
+✅ <body> → Contiene el contenido visible de la página.
+✅ <h1> a <h6> → Encabezados de mayor a menor importancia.
+✅ <p> → Párrafos de texto.
+✅ <a href="URL"> → Enlaces.
+✅ <img src="imagen.jpg" alt="Descripción"> → Imágenes.
+✅ <ul> / <ol> → Listas desordenadas y ordenadas.
+✅ <div> y <span> → Elementos contenedores para organizar contenido.
+✅ <table> → Tablas.
+✅ <form> → Formularios interactivos.
+
+🔹 Atributos comunes en HTML: ✅ id → Identifica un único elemento en la página.
+✅ class → Define una clase para aplicar estilos en CSS.
+✅ src → Fuente de imágenes, audios o videos.
+✅ href → Dirección de enlaces.
+✅ alt → Texto alternativo en imágenes.
+✅ style → Permite aplicar estilos en línea.
+
+🔹 Etiquetas semánticas en HTML5: ✅ <header> → Encabezado.
+✅ <nav> → Navegación.
+✅ <section> → Sección de contenido.
+✅ <article> → Contenido independiente.
+✅ <aside> → Contenido relacionado (barras laterales).
+✅ <footer> → Pie de página.
+
+🔹 Enlaces útiles: 
+🔗 MDN Web Docs (https://developer.mozilla.org/es/docs/Web/HTML)
+🔗 W3Schools HTML (https://www.w3schools.com/html/)
+======================================

@@ -1,0 +1,81 @@
+====================================== CSS - RESUMEN ======================================
+
+🔹 ¿Qué es CSS?  
+CSS (Cascading Style Sheets) es el lenguaje utilizado para dar estilo y diseño a las páginas web, permitiendo definir colores, tipografías, márgenes, posiciones y otros aspectos visuales.
+
+🔹 Sintaxis básica:
+
+selector {
+    propiedad: valor;
+}
+
+Ejemplo:
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+🔹 Tipos de inclusión de CSS: ✅ En línea (Inline):
+Dentro de una etiqueta con el atributo style.
+Ejemplo: <p style="color: red;">Texto</p>
+
+✅ Interno:
+Dentro de la etiqueta <style> en el <head>.
+Ejemplo:
+
+<style>
+    body { background-color: lightgray; }
+</style>
+
+✅ Externo:
+Archivo separado con extensión .css enlazado con <link>.
+Ejemplo:
+<link rel="stylesheet" href="styles.css">
+
+🔹 Selectores básicos: ✅ * → Selector universal.
+✅ elemento → Selecciona todos los elementos de ese tipo (ej: p).
+✅ .clase → Selecciona todos los elementos con esa clase.
+✅ #id → Selecciona el elemento con ese identificador.
+✅ elemento1, elemento2 → Selecciona varios elementos.
+
+🔹 Propiedades comunes: ✅ color: → Define el color del texto.
+✅ background-color: → Color de fondo.
+✅ font-size: → Tamaño del texto.
+✅ font-family: → Tipografía.
+✅ margin: → Margen exterior.
+✅ padding: → Margen interior.
+✅ border: → Bordes.
+✅ width: → Ancho.
+✅ height: → Alto.
+✅ display: → Modo de visualización (block, inline, flex).
+✅ text-align: → Alineación del texto.
+
+🔹 Modelo de Caja (Box Model): Cada elemento se compone de:
+Content → Contenido.
+Padding → Espacio interno entre el contenido y el borde.
+Border → Borde alrededor del contenido.
+Margin → Espacio exterior entre elementos.
+
+🔹 Posicionamiento: ✅ static → Por defecto, según el flujo del documento.
+✅ relative → Relativo a su posición original.
+✅ absolute → Relativo al contenedor más cercano con posición definida.
+✅ fixed → Fijo respecto a la ventana del navegador.
+✅ sticky → Se mantiene visible al hacer scroll hasta cierto punto.
+
+🔹 Flexbox (Diseño flexible):
+.container {
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center;    /* Alineación vertical */
+}
+
+🔹 Media Queries (Diseño Responsivo): Permiten adaptar el diseño a diferentes tamaños de pantalla.
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+🔹 Enlaces útiles: 
+🔗 MDN Web Docs: (https://developer.mozilla.org/es/docs/Web/CSS)
+🔗 W3Schools CSS (https://www.w3schools.com/css/default.asp)
+======================================
