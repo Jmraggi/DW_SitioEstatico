@@ -20,7 +20,7 @@ Este es un sitio web desarrollado como parte del curso de Desarrollo Web. El obj
 ## Instalación
 
 1. Clona el repositorio:
-    git clone https://github.com/tu-usuario/DW_Sitio.git
+    git clone https://github.com/Jmraggi/DW_SitioEstatico.git
 
 2. Navega al directorio del proyecto:
     cd DW_Sitio
